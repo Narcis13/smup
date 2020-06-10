@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel (Narcis-PC)
+                    Laravel (MBP 13)
                 </div>
 
                 <div class="links">

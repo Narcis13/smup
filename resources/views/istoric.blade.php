@@ -2,11 +2,10 @@
 
         @section('content')
         <div class="flex-center position-ref full-height">
-
-
+            
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel (MBP 13)
+                    Istoric
                 </div>
 
                 <div class="links">

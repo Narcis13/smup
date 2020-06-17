@@ -8,66 +8,48 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+        <link href="/css/main.css" rel="stylesheet">
 
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                height: 100vh;
-                margin: 0;
-            }
 
-            .full-height {
-                height: 100vh;
-            }
 
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
     </head>
     <body>
+    <nav class="bg-gray-200">
+    
+        <div class="flex">
+           <img class="h-16 m-2"src="/img/sigla.jpg" alt="sigla">
+           <ul class="flex items-center justify-around uppercase w-full">
+               <li>
+               <a class="block" href="">Despre noi</a> 
+               </li>
+               <li>
+               <a class="block" href="">Management</a>
+          
+               </li>
+               <li>
+               <a class="block" href="">Resurse umane</a>
+               </li>
+               <li>
+               <a class="block" href="">Servicii</a>
+               </li>
+               <li>
+               <a class="block" href="">Galerie foto</a>
+               </li>
+               <li>
+               <a class="block" href="">Info pacienti</a>
+               </li>
+               <li>
+               <a class="block" href="">Contact</a>
+               </li>
+           </ul>
+        </div>
+    </nav>
     @yield('content')
 
     <footer>
-    Copyright @2020
+        <div class="text-green-500">
+             Copyright @2020
+        </div>
     </footer>
     </body>
     </html>

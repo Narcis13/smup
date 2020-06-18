@@ -10,7 +10,11 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
         <link href="/css/main.css" rel="stylesheet">
 
-
+<style>
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+</style>
 
     </head>
     <body>
@@ -21,7 +25,7 @@
            <img class="h-16 m-2"src="/img/logoanmcs_mica.png" alt="sigla">
            <ul class="flex items-center justify-around uppercase w-full">
                <li>
-               <a class="block " href="#">Despre noi</a> 
+               <a class="block dropdown" href="#">Despre noi</a> 
                         <ul class="absolute">
                            <li>
                                 <a href="#">Istoric</a>
@@ -35,16 +39,16 @@
                         </ul>
                </li>
                <li>
-               <a class="block" href="#">Management</a>
-                        <ul class="absolute pt-8 text-base">
+               <a class="block dropdown" href="#">Management</a>
+                        <ul class="absolute pt-8 dropdown-menu hidden">
                            <li >
-                                <a class="p-1 block border-b-1 border-gray-600" href="#">Evenimente</a>
+                                <a class="relative p-1 transition ease-out duration-1000 inline-block border-b-2 border-transparent hover:border-gray-600 hover:text-red-800 hover:bg-gray-300" href="#">Evenimente</a>
                            </li>
                            <li >
-                                <a class="p-1 block border-b-1 border-gray-600" href="#">Plan de management</a>
+                                <a class="p-1 block border-b-2 border-gray-600" href="#">Plan de management</a>
                            </li>
                            <li >
-                                <a class="p-1 block border-b-1 border-gray-600" href="#">Strategia de dezvoltare</a>
+                                <a class="p-1 block border-b-2 border-gray-600" href="#">Strategia de dezvoltare</a>
                            </li>
                         </ul>
                </li>

@@ -11,8 +11,8 @@
         <link href="/css/main.css" rel="stylesheet">
 
 <style>
-.dropdown:hover .dropdown-menu {
-  display: block;
+.group:hover .group-hover\:block {
+  display: block !important;
 }
 </style>
 
@@ -24,31 +24,31 @@
            <img class="h-16 m-2"src="/img/sigla.jpg" alt="sigla">
            <img class="h-16 m-2"src="/img/logoanmcs_mica.png" alt="sigla">
            <ul class="flex items-center justify-around uppercase w-full">
-               <li>
+               <li class="relative group ">
                <a class="block dropdown" href="#">Despre noi</a> 
-                        <ul class="absolute">
+                        <ul class="absolute pt-8 hidden group-hover:block">
                            <li>
-                                <a href="#">Istoric</a>
+                                <a class="linie-submeniu" href="/istoric">Istoric</a>
                            </li>
                            <li>
-                                <a href="#">Misiune si valori</a>
+                                <a class="linie-submeniu" href="#">Misiune si valori</a>
                            </li>
                            <li>
-                                <a href="#">Conducere</a>
+                                <a class="linie-submeniu" href="#">Conducere</a>
                            </li>
                         </ul>
                </li>
-               <li>
-               <a class="block dropdown" href="#">Management</a>
-                        <ul class="absolute pt-8 dropdown-menu hidden">
+               <li class="relative group ">
+               <a class="block" href="#">Management</a>
+                        <ul class=" absolute pt-8 hidden group-hover:block">
                            <li >
-                                <a class="relative p-1 transition ease-out duration-1000 inline-block border-b-2 border-transparent hover:border-gray-600 hover:text-red-800 hover:bg-gray-300" href="#">Evenimente</a>
+                                <a class="linie-submeniu" href="#">Evenimente</a>
                            </li>
                            <li >
-                                <a class="p-1 block border-b-2 border-gray-600" href="#">Plan de management</a>
+                                <a class="linie-submeniu" href="#">Plan de management</a>
                            </li>
                            <li >
-                                <a class="p-1 block border-b-2 border-gray-600" href="#">Strategia de dezvoltare</a>
+                                <a class="linie-submeniu" href="#">Strategia de dezvoltare</a>
                            </li>
                         </ul>
                </li>
@@ -77,5 +77,6 @@
              Copyright @2020
         </div>
     </footer>
+    <script src="/js/app.js"></script>
     </body>
     </html>

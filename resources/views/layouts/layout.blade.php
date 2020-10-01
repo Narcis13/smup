@@ -36,6 +36,9 @@
                            <li>
                                 <a href="#">Conducere</a>
                            </li>
+                           <li>
+                                <a href="#">Pacienti(sterg)</a>
+                           </li>
                         </ul>
                </li>
                <li>

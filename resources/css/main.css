@@ -2,4 +2,12 @@
 
 @tailwind components;
 
+.linie-submeniu{
+    @apply p-1 transition ease-out duration-1000 inline-block border-b-2 border-transparent;
+}
+
+.linie-submeniu:hover{
+    @apply border-gray-600 text-red-800 bg-gray-200;
+}
+
 @tailwind utilities;
